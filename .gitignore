@@ -1,0 +1,17 @@
+# Proyecto aún no terminado, no se sube
+Credit Scoring Predicting/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Claude Code local dirs
+.agents/
+.claude/
