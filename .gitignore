@@ -15,3 +15,6 @@ Thumbs.db
 # Claude Code local dirs
 .agents/
 .claude/
+
+# Repo de perfil de GitHub (vive en su propio repo CatoXP/CatoXP)
+perfil-github/
