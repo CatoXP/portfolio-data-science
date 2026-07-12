@@ -118,7 +118,8 @@ para un modelo tan simple e interpretable.
 ├── cs-test.csv                       # Dataset de prueba oficial de Kaggle
 ├── sampleEntry.csv                   # Formato de entrega de Kaggle
 ├── Data Dictionary.xls               # Diccionario de variables
-├── README.md                         # Este archivo
+├── slides/                           # Resumen ejecutivo del proyecto en formato de presentación
+└── README.md                         # Este archivo
 ```
 
 ## Cómo correr el proyecto
@@ -127,3 +128,16 @@ para un modelo tan simple e interpretable.
 pip install pandas matplotlib seaborn numpy scikit-learn shap
 jupyter notebook Credit_Scoring_predicting.ipynb
 ```
+
+## Resumen en diapositivas
+
+La carpeta [`slides/`](slides) contiene un resumen ejecutivo del proyecto en formato de presentación,
+pensado para comunicar los hallazgos y la recomendación de negocio a una audiencia no técnica (por ejemplo,
+un equipo de riesgo crediticio o dirección), sin necesidad de revisar el notebook completo:
+
+1. **Portada** — presentación del proyecto y su objetivo.
+2. **Mapa de correlación (heatmap)** — relación entre las variables del dataset y el target.
+3. **Curva ROC** — desempeño del modelo final (AUC-ROC).
+4. **Factores de riesgo** — variables con mayor influencia en la predicción, según SHAP.
+5. **Caso de aplicación** — ejemplo de cómo se interpretaría el modelo en un caso real de decisión de crédito.
+6. **Cierre y conclusiones** — resumen de resultados y siguientes pasos recomendados.
