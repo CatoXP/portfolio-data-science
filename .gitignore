@@ -18,3 +18,7 @@ Thumbs.db
 
 # Repo de perfil de GitHub (vive en su propio repo CatoXP/CatoXP)
 perfil-github/
+.gstack/
+
+# Vive en su propio repo privado (claude-skills-setup)
+claude-skills/
