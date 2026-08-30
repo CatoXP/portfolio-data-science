@@ -1,0 +1,11 @@
+# Captura de pantalla
+mss>=10.0
+# OCR offline (incluye onnxruntime y los modelos)
+rapidocr-onnxruntime>=1.4
+# Traduccion offline en->es (CTranslate2)
+argostranslate>=1.11
+# opencv-python y numpy suelen venir ya instalados
+numpy>=1.24
+opencv-python>=4.8
+# lectura del config del motor OCR (ya viene con rapidocr)
+PyYAML>=6.0
