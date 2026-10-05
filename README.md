@@ -21,4 +21,4 @@ Repositorio centralizado con mis proyectos de ciencia de datos aplicada a negoci
 
 ## Otros proyectos (repos independientes)
 
-- [Detección temprana de enfermedades bovinas con redes neuronales convolucionales](https://github.com/CatoXP/Detecci-n-de-bovinos-con-redes-neuronales-convolucionales) — proyecto grande con app propia, se mantiene en su propio repo.
+- [Detección temprana de enfermedades bovinas con redes neuronales convolucionales](https://github.com/CatoXP/deteccion-bovinos-cnn) — proyecto grande con app propia, se mantiene en su propio repo.
