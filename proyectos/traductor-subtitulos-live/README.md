@@ -11,6 +11,12 @@ overlay flotante encima del video.
 
 ---
 
+## 📑 Presentación
+
+<p align="center"><a href="slides/traductor_deck.pdf"><img src="slides/preview.png" width="100%" alt="Presentación del proyecto (9 slides)"></a></p>
+
+**[Ver presentación en PDF](slides/traductor_deck.pdf)** · [Descargar PowerPoint](slides/traductor_deck.pptx) · 9 slides. Gráficas en [`slides/img/`](slides/img), todas con la identidad visual de mi [portafolio](https://github.com/CatoXP).
+
 ## Instalación (una sola vez)
 
 ```bash

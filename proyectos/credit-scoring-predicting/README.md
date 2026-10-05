@@ -129,15 +129,8 @@ pip install pandas matplotlib seaborn numpy scikit-learn shap
 jupyter notebook Credit_Scoring_predicting.ipynb
 ```
 
-## Resumen en diapositivas
+## 📑 Presentación
 
-La carpeta [`slides/`](slides) contiene un resumen ejecutivo del proyecto en formato de presentación,
-pensado para comunicar los hallazgos y la recomendación de negocio a una audiencia no técnica (por ejemplo,
-un equipo de riesgo crediticio o dirección), sin necesidad de revisar el notebook completo:
+<p align="center"><a href="slides/credit_scoring_deck.pdf"><img src="slides/preview.png" width="100%" alt="Presentación del proyecto (11 slides)"></a></p>
 
-1. **Portada** — presentación del proyecto y su objetivo.
-2. **Mapa de correlación (heatmap)** — relación entre las variables del dataset y el target.
-3. **Curva ROC** — desempeño del modelo final (AUC-ROC).
-4. **Factores de riesgo** — variables con mayor influencia en la predicción, según SHAP.
-5. **Caso de aplicación** — ejemplo de cómo se interpretaría el modelo en un caso real de decisión de crédito.
-6. **Cierre y conclusiones** — resumen de resultados y siguientes pasos recomendados.
+**[Ver presentación en PDF](slides/credit_scoring_deck.pdf)** · [Descargar PowerPoint](slides/credit_scoring_deck.pptx) · 11 slides, pensadas para comunicar los hallazgos a una audiencia no técnica (riesgo crediticio o dirección). Gráficas en [`slides/img/`](slides/img), todas con la identidad visual de mi [portafolio](https://github.com/CatoXP).

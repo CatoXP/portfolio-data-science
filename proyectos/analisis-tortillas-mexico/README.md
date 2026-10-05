@@ -9,6 +9,12 @@
 
 ¡Bienvenido! Este es un proyecto de **Ciencia de Datos** enfocado en analizar uno de los elementos más importantes de la cultura y la vida diaria en México: **La Tortilla**. Con más de 300,000 registros históricos obtenidos del *Sistema Nacional de Información e Integración de Mercados*, nuestro objetivo es extraer verdadero valor a estos datos respondiendo preguntas cruciales e implementando *Machine Learning* predictivo.
 
+## 📑 Presentación
+
+<p align="center"><a href="slides/tortillas_deck.pdf"><img src="slides/preview.png" width="100%" alt="Presentación del proyecto (10 slides)"></a></p>
+
+**[Ver presentación en PDF](slides/tortillas_deck.pdf)** · [Descargar PowerPoint](slides/tortillas_deck.pptx) · 10 slides. Gráficas en [`slides/img/`](slides/img), todas con la identidad visual de mi [portafolio](https://github.com/CatoXP).
+
 ## 🚀 Sobre este Proyecto
 
 La tortilla no solo es gastronomía, es la base de la economía nutricional del país. Recientemente, su precio ha sufrido los azotes de la inflación moderna. El presente repositorio contiene un análisis de inicio a fin que abarca:

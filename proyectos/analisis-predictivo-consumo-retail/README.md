@@ -4,3 +4,9 @@ Análisis de datos de una tienda de comestibles para identificar patrones de con
 
 **Datos:** base de datos SQL de ventas de la tienda.
 **Herramientas:** Python (reglas de asociación), SQL, Power BI.
+
+## 📑 Presentación
+
+<p align="center"><a href="slides/retail_deck.pdf"><img src="slides/preview.png" width="100%" alt="Presentación del proyecto (9 slides)"></a></p>
+
+**[Ver presentación en PDF](slides/retail_deck.pdf)** · [Descargar PowerPoint](slides/retail_deck.pptx) · 9 slides. Gráficas en [`slides/img/`](slides/img), todas con la identidad visual de mi [portafolio](https://github.com/CatoXP).
