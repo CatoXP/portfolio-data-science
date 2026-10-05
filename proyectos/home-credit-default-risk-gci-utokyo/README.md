@@ -1,13 +1,13 @@
 # 🏦 Home Credit Default Risk — Competencia GCI World 2026 · The University of Tokyo
 
-**Top 16 en el leaderboard público** · ROC-AUC **0.77434** · Brandon Uriel Garcia Sanchez
+**Participación en la competencia de ML de GCI World 2026** · ROC-AUC **0.77434** en el leaderboard público · Brandon Uriel Garcia Sanchez
 
 [![GitHub](https://img.shields.io/badge/GitHub-CatoXP-181717?logo=github)](https://github.com/CatoXP)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Brandon%20Uriel%20Garcia%20Sanchez-0A66C2?logo=linkedin)](https://www.linkedin.com/in/brandon-uriel-garcia-sanchez-9ab77b320/)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![Models](https://img.shields.io/badge/Models-LightGBM%20%7C%20XGBoost%20%7C%20CatBoost-success)
 
-![Leaderboard](images/leaderboard_top16.png)
+![Leaderboard](images/leaderboard.png)
 
 📑 **Presentación del proyecto:** [slides/home_credit_deck.pdf](slides/home_credit_deck.pdf)
 
@@ -174,7 +174,7 @@ maximizan el AUC out-of-fold (Nelder–Mead). CatBoost es el modelo menos correl
 | 6 | + imputación de EXT_SOURCE | 0.7682 |
 | 7 | selección de variables | 0.7686 |
 | 8 | **ensamble de 4 modelos** | **0.7700** |
-| | **Leaderboard público (Omnicampus)** | **0.77434 → Top 16** |
+| | **Leaderboard público (Omnicampus)** | **0.77434** |
 
 ## 9. Lo que no funcionó
 Probar ideas que fallan también es parte del trabajo. Todas se midieron con el mismo CV:
