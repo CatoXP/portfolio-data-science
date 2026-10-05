@@ -9,6 +9,8 @@
 
 ![Leaderboard](images/leaderboard_top16.png)
 
+📑 **Presentación del proyecto:** [slides/home_credit_deck.pdf](slides/home_credit_deck.pdf)
+
 ## Índice
 1. [¿Por qué existe este proyecto?](#1-por-qué-existe-este-proyecto)
 2. [El problema](#2-el-problema)
@@ -154,9 +156,11 @@ maximizan el AUC out-of-fold (Nelder–Mead). CatBoost es el modelo menos correl
 
 ![Ensemble](images/code_ensemble.png)
 
-<p align="center"><img src="images/roc_ensemble.png" width="380"> <img src="images/feature_importance.png" width="420"></p>
+<p align="center"><img src="images/roc_ensemble.png" width="40%"> <img src="images/feature_importance.png" width="55%"></p>
 
 ## 8. Resultados
+
+![Progresión del score](images/cv_progression.png)
 
 | # | Paso | AUC (CV, 5 folds) |
 |---|---|---|
@@ -214,6 +218,7 @@ El notebook genera `output/submission.csv`. Funciona en local y en Google Colab 
 home-credit-default-risk-gci-utokyo/
 ├── home_credit_solution.ipynb   notebook completo con outputs (EDA → features → modelos → ensamble → envío)
 ├── images/                      gráficas, capturas de código y leaderboard
+├── slides/home_credit_deck.pdf  presentación del proyecto (9 slides)
 ├── requirements.txt
 └── README.md
 ```
