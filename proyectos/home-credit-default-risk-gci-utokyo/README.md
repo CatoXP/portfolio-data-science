@@ -11,7 +11,7 @@
 
 📑 **Presentación del proyecto:** [slides/home_credit_deck.pdf](slides/home_credit_deck.pdf)
 
-<p align="center"><a href="slides/home_credit_deck.pdf"><img src="slides/preview.png" width="100%" alt="Presentación del proyecto (9 slides)"></a></p>
+<p align="center"><a href="slides/home_credit_deck.pdf"><img src="slides/preview.png" width="100%" alt="Presentación del proyecto (10 slides)"></a></p>
 
 ## Índice
 1. [¿Por qué existe este proyecto?](#1-por-qué-existe-este-proyecto)
@@ -220,7 +220,7 @@ El notebook genera `output/submission.csv`. Funciona en local y en Google Colab 
 home-credit-default-risk-gci-utokyo/
 ├── home_credit_solution.ipynb   notebook completo con outputs (EDA → features → modelos → ensamble → envío)
 ├── images/                      gráficas, capturas de código y leaderboard
-├── slides/                     presentación del proyecto (PDF, 9 slides) y vista previa
+├── slides/                     presentación del proyecto (PDF, 10 slides) y vista previa
 ├── requirements.txt
 └── README.md
 ```
