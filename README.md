@@ -24,6 +24,12 @@ Cada proyecto tiene su carpeta con notebook, README propio y una **presentación
 | 07 | [🎬 Traductor de subtítulos en vivo](proyectos/traductor-subtitulos-live) | OCR + traducción offline inglés → español sobre cualquier video | ~226 ms por línea · OCR 11x más rápido | RapidOCR · Argos · Tkinter | [PDF](proyectos/traductor-subtitulos-live/slides/traductor_deck.pdf) |
 | 08 | [🌍 Esperanza de vida en el mundo](proyectos/analisis-esperanza-vida) | Estadística descriptiva de 142 países, 1952–2007 | +17.9 años · brecha de 43 años | pandas · seaborn | [PDF](proyectos/analisis-esperanza-vida/slides/esperanza_vida_deck.pdf) |
 
+## Proyectos de Inteligencia Artificial
+
+| # | Proyecto | Qué resuelve | Resultado | Stack |
+|---|---|---|---|---|
+| 01 | [⚖️ Asistente de Regulación Bancaria (RAG + LLM local)](proyectos-inteligencia-artificial/rag-regulacion-bancaria) | Responde en español preguntas sobre la Ley de Instituciones de Crédito citando el artículo; todo corre en local | **Recall@5 73%** · MRR 0.61 en 22 preguntas | sentence-transformers · ChromaDB · Ollama (Gemma 3) · Gradio |
+
 ## Otros proyectos (repositorios independientes)
 
 | Proyecto | Qué es | Enlaces |
@@ -40,6 +46,7 @@ Cada proyecto tiene su carpeta con notebook, README propio y una **presentación
 portfolio-data-science/
 ├── proyectos/<proyecto>/     un proyecto terminado: notebook, datos (cuando se pueden compartir), README y slides/
 │   └── slides/               presentación (PDF + PPTX), vista previa y gráficas
+├── proyectos-inteligencia-artificial/<proyecto>/   proyectos de IA (RAG, LLM): código, evaluación y README
 └── scripts/                  ejercicios de curso, prácticas y apuntes (no son proyectos terminados)
 ```
 

@@ -1,0 +1,15 @@
+# Entorno virtual
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Base vectorial: se regenera con backend/ingesta.py
+base_vectorial/
+
+# Documentos fuente: se descargan del sitio oficial (ver README)
+datos/*.pdf
+
+# Configuración local del editor
+.vscode/

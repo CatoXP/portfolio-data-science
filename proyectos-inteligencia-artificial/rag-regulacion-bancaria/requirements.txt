@@ -1,0 +1,10 @@
+# Dependencias del proyecto RAG de regulación bancaria.
+# Instalar con:  pip install -r requirements.txt
+#
+# Versiones con las que se desarrolló y evaluó el proyecto (Python 3.11).
+
+pymupdf==2.1                   # Lectura de PDF
+sentence-transformers==6.2.0   # Modelo de embeddings y cross-encoder (re-ranking)
+chromadb==1.5.9                # Base vectorial
+ollama==0.6.3                  # Cliente de Python para el LLM local
+gradio==6.31.0                 # Interfaz web
