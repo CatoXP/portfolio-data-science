@@ -1,4 +1,4 @@
-# 🏦 Home Credit Default Risk — Competencia GCI World 2026 · The University of Tokyo
+# 🏦 Home Credit Default Risk — Competencia GCI World 2026 · Matsuo-Iwasawa Lab, UTokyo
 
 **Participación en la competencia de ML de GCI World 2026** · ROC-AUC **0.77434** en el leaderboard público · Brandon Uriel Garcia Sanchez
 
@@ -31,7 +31,7 @@
 ## 1. ¿Por qué existe este proyecto?
 
 **GCI (Global Consumer Intelligence)** es el programa de Data Science e Inteligencia Artificial del
-[**Matsuo-Iwasawa Laboratory de The University of Tokyo**](https://weblab.t.u-tokyo.ac.jp/en/lecture/gci/). Se imparte en Japón
+[**Matsuo-Iwasawa Lab, UTokyo**](https://weblab.t.u-tokyo.ac.jp/en/lecture/gci/). Se imparte en Japón
 desde 2014 y su edición internacional, **GCI World**, reúne a miles de estudiantes de alrededor de 100 países
 ([fuente](https://weblab.t.u-tokyo.ac.jp/en/news/2026-07-27-2en/)). Cubre Python, machine learning, SQL y aplicaciones de IA a negocio.
 
@@ -41,7 +41,7 @@ reproduzca exactamente la predicción enviada. Este repositorio es ese notebook,
 
 | Dato | Valor |
 |---|---|
-| Organiza | Matsuo-Iwasawa Lab, The University of Tokyo |
+| Organiza | Matsuo-Iwasawa Lab, UTokyo |
 | Plataforma de envío | Omnicampus |
 | Periodo | 2 de octubre – 20 de noviembre de 2026 |
 | Métrica | ROC-AUC |
@@ -226,4 +226,4 @@ home-credit-default-risk-gci-utokyo/
 ```
 
 ---
-*Proyecto realizado en la competencia del programa GCI World 2026 (septiembre) del Matsuo-Iwasawa Laboratory, The University of Tokyo.*
+*Proyecto realizado en la competencia del programa GCI World 2026 (septiembre) del Matsuo-Iwasawa Lab, UTokyo.*
