@@ -45,7 +45,7 @@ todo, pero lift cercano a 1.
 - Implementar la matemática a mano antes de usar una librería.
 - Ordenar por lift y no por confianza evita reglas obvias.
 - Transformar tickets en una matriz binaria con `get_dummies`.
-- Las reglas alimentan el caso de negocio del proyecto de [retail](../analisis-predictivo-consumo-retail).
+- Las reglas alimentan el caso de negocio del proyecto de [retail](../consumo-retail).
 
 ## 5. Cómo reproducirlo
 ```bash
@@ -53,7 +53,7 @@ pip install pandas
 jupyter notebook "Algoritmo de consumo Market Basket Analyst.ipynb"
 ```
 > El notebook lee la base `DBsanoyfresco.db` (SQLite), que no se incluye en el repositorio. Las reglas resultantes están
-> en [`../analisis-predictivo-consumo-retail/Algoritmo_de_consumo_Python/outp_reglas_de_consumo.csv`](../analisis-predictivo-consumo-retail/Algoritmo_de_consumo_Python/outp_reglas_de_consumo.csv).
+> en [`../consumo-retail/Algoritmo_de_consumo_Python/outp_reglas_de_consumo.csv`](../consumo-retail/Algoritmo_de_consumo_Python/outp_reglas_de_consumo.csv).
 
 ---
 <sub>Parte de mi [portafolio de ciencia de datos](https://github.com/CatoXP/portfolio-data-science) · [LinkedIn](https://www.linkedin.com/in/brandon-uriel-garcia-sanchez-9ab77b320/) · [GitHub](https://github.com/CatoXP)</sub>

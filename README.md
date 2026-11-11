@@ -1,34 +1,45 @@
-<p align="center"><a href="https://github.com/CatoXP"><img src="https://raw.githubusercontent.com/CatoXP/CatoXP/main/assets/banner_es.svg" width="100%" alt="Brandon Uriel García Sánchez — Científico de Datos para Negocios"></a></p>
+<p align="center"><a href="https://github.com/CatoXP"><img src="https://raw.githubusercontent.com/CatoXP/CatoXP/main/assets/banner_es.svg" width="100%" alt="Brandon Uriel García Sánchez — Data Scientist · ML & AI Engineer"></a></p>
 
-# Portafolio de Ciencia de Datos
+# Portafolio de Machine Learning e IA
 
-**Proyectos de ciencia de datos aplicada a negocio, finanzas e IA** · Brandon Uriel García Sánchez
+**Proyectos de IA Engineering, machine learning y análisis de datos aplicados a negocio y finanzas** · Brandon Uriel García Sánchez
 
 [![Perfil](https://img.shields.io/badge/GitHub-CatoXP-17171a?style=flat-square&logo=github&logoColor=ff2e3a)](https://github.com/CatoXP)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Brandon_Uriel_García_Sánchez-ff2e3a?style=flat-square&logo=linkedin&logoColor=0a0a0b)](https://www.linkedin.com/in/brandon-uriel-garcia-sanchez-9ab77b320/)
 [![Arcade](https://img.shields.io/badge/Portafolio_web-arcade-f2ede3?style=flat-square&logo=githubpages&logoColor=0a0a0b)](https://catoxp.github.io/portafolio-datascience-arcade/)
 
-Estudiante de Ciencias de Datos para Negocios (UNRC) y becario de Desarrollo y Automatización en HSBC GSC.
-Cada proyecto tiene su carpeta con notebook, README propio y una **presentación** con la misma identidad visual.
+Científico de datos con enfoque en **ML & AI Engineering** · becario de Desarrollo y Automatización en HSBC GSC · Lic. en Ciencias de Datos para Negocios (UNRC).
+Cada proyecto tiene su carpeta con código o notebook, README propio y, en la mayoría, una **presentación** con la misma identidad visual.
 
-## Proyectos
+## 01 · IA Engineering
 
-| # | Proyecto | Qué resuelve | Resultado | Stack | Slides |
-|---|---|---|---|---|---|
-| 01 | [💳 Credit Scoring Prediction](proyectos/credit-scoring-predicting) | Riesgo de impago a 2 años (Kaggle · Give Me Some Credit), con explicabilidad SHAP | **AUC 0.861** · detecta 75 de cada 100 morosos | Python · scikit-learn · SHAP | [PDF](proyectos/credit-scoring-predicting/slides/credit_scoring_deck.pdf) |
-| 02 | [🏆 Home Credit Default Risk — GCI World 2026](proyectos/home-credit-default-risk-gci-utokyo) | Competencia de ML del Matsuo-Iwasawa Lab, UTokyo | AUC **0.774** en el leaderboard público | LightGBM · XGBoost · CatBoost | [PDF](proyectos/home-credit-default-risk-gci-utokyo/slides/home_credit_deck.pdf) |
-| 03 | [🛒 Hábitos de consumo en retail digital](proyectos/analisis-predictivo-consumo-retail) | SQL, reglas de asociación y dashboard para una tienda en línea | €39.9M analizados · −82% detectado ene→dic | SQL · Python · Power BI | [PDF](proyectos/analisis-predictivo-consumo-retail/slides/retail_deck.pdf) |
-| 04 | [🌽 Precio de la tortilla en México](proyectos/analisis-tortillas-mexico) | EDA y predicción con 294k registros del SNIIM | **R² 0.962** · error medio $0.65/kg | pandas · scikit-learn · Plotly | [PDF](proyectos/analisis-tortillas-mexico/slides/tortillas_deck.pdf) |
-| 05 | [🚇 Robos en el Metro de la CDMX](proyectos/analisis-robos-metro-cdmx) | Datos abiertos de la Fiscalía: cuándo, dónde y pronóstico 2025 | 56% de los robos en la mañana | Python · scikit-learn · Power BI | [PDF](proyectos/analisis-robos-metro-cdmx/slides/metro_cdmx_deck.pdf) |
-| 06 | [🧺 Market Basket Analysis](proyectos/market-basket-consumo) | Reglas de asociación implementadas desde cero | 399 reglas · lift máx. 3.6x | Python · pandas · SQLite | [PDF](proyectos/market-basket-consumo/slides/market_basket_deck.pdf) |
-| 07 | [🎬 Traductor de subtítulos en vivo](proyectos/traductor-subtitulos-live) | OCR + traducción offline inglés → español sobre cualquier video | ~226 ms por línea · OCR 11x más rápido | RapidOCR · Argos · Tkinter | [PDF](proyectos/traductor-subtitulos-live/slides/traductor_deck.pdf) |
-| 08 | [🌍 Esperanza de vida en el mundo](proyectos/analisis-esperanza-vida) | Estadística descriptiva de 142 países, 1952–2007 | +17.9 años · brecha de 43 años | pandas · seaborn | [PDF](proyectos/analisis-esperanza-vida/slides/esperanza_vida_deck.pdf) |
+LLMs, RAG y modelos pre-entrenados convertidos en herramientas que funcionan.
 
-## Proyectos de Inteligencia Artificial
+| Proyecto | Qué resuelve | Resultado | Stack |
+|---|---|---|---|
+| [⚖️ Asistente de Regulación Bancaria (RAG + LLM local)](01-ia-engineering/rag-regulacion-bancaria) | Responde en español preguntas sobre la Ley de Instituciones de Crédito citando el artículo; todo corre en local | **Recall@20 91%** · Recall@5 73% · MRR 0.61 en 22 preguntas | sentence-transformers · ChromaDB · Ollama (Gemma 3) · Gradio |
+| [🎬 Traductor de subtítulos en vivo](01-ia-engineering/traductor-subtitulos-live) | OCR + traducción offline inglés → español sobre cualquier video · [slides](01-ia-engineering/traductor-subtitulos-live/slides/traductor_deck.pdf) | ~226 ms por línea · OCR 11x más rápido | RapidOCR · Argos Translate · Tkinter |
 
-| # | Proyecto | Qué resuelve | Resultado | Stack |
+## 02 · Machine Learning
+
+Modelos predictivos validados sin fuga de datos, con foco en riesgo de crédito.
+
+| Proyecto | Qué resuelve | Resultado | Stack | Slides |
 |---|---|---|---|---|
-| 01 | [⚖️ Asistente de Regulación Bancaria (RAG + LLM local)](proyectos-inteligencia-artificial/rag-regulacion-bancaria) | Responde en español preguntas sobre la Ley de Instituciones de Crédito citando el artículo; todo corre en local | **Recall@5 73%** · MRR 0.61 en 22 preguntas | sentence-transformers · ChromaDB · Ollama (Gemma 3) · Gradio |
+| [💳 Credit Scoring Prediction](02-machine-learning/credit-scoring-predicting) | Riesgo de impago a 2 años (Kaggle · Give Me Some Credit), con explicabilidad SHAP | **AUC 0.861** · detecta 75 de cada 100 morosos | Python · scikit-learn · SHAP | [PDF](02-machine-learning/credit-scoring-predicting/slides/credit_scoring_deck.pdf) |
+| [🏆 Home Credit Default Risk — GCI World 2026](02-machine-learning/home-credit-default-risk-gci-utokyo) | Competencia de ML del Matsuo-Iwasawa Lab, UTokyo | AUC **0.774** en el leaderboard público | LightGBM · XGBoost · CatBoost | [PDF](02-machine-learning/home-credit-default-risk-gci-utokyo/slides/home_credit_deck.pdf) |
+| [🌽 Precio de la tortilla en México](02-machine-learning/prediccion-precio-tortilla) | EDA y predicción con 294k registros del SNIIM | **R² 0.962** · error medio $0.65/kg | pandas · scikit-learn · Plotly | [PDF](02-machine-learning/prediccion-precio-tortilla/slides/tortillas_deck.pdf) |
+
+## 03 · Análisis de datos
+
+SQL, estadística y dashboards para responder preguntas de negocio.
+
+| Proyecto | Qué resuelve | Resultado | Stack | Slides |
+|---|---|---|---|---|
+| [🛒 Hábitos de consumo en retail digital](03-analisis-de-datos/consumo-retail) | SQL, reglas de asociación y dashboard para una tienda en línea | €39.9M analizados · −82% detectado ene→dic | SQL · Python · Power BI | [PDF](03-analisis-de-datos/consumo-retail/slides/retail_deck.pdf) |
+| [🧺 Market Basket Analysis](03-analisis-de-datos/market-basket) | Reglas de asociación implementadas desde cero | 399 reglas · lift máx. 3.6x | Python · pandas · SQLite | [PDF](03-analisis-de-datos/market-basket/slides/market_basket_deck.pdf) |
+| [🚇 Robos en el Metro de la CDMX](03-analisis-de-datos/robos-metro-cdmx) | Datos abiertos de la Fiscalía: cuándo, dónde y pronóstico 2025 | 56% de los robos en la mañana | Python · scikit-learn · Power BI | [PDF](03-analisis-de-datos/robos-metro-cdmx/slides/metro_cdmx_deck.pdf) |
+| [🌍 Esperanza de vida en el mundo](03-analisis-de-datos/esperanza-vida) | Estadística descriptiva de 142 países, 1952–2007 | +17.9 años · brecha de 43 años | pandas · seaborn | [PDF](03-analisis-de-datos/esperanza-vida/slides/esperanza_vida_deck.pdf) |
 
 ## Otros proyectos (repositorios independientes)
 
@@ -44,10 +55,10 @@ Cada proyecto tiene su carpeta con notebook, README propio y una **presentación
 
 ```
 portfolio-data-science/
-├── proyectos/<proyecto>/     un proyecto terminado: notebook, datos (cuando se pueden compartir), README y slides/
-│   └── slides/               presentación (PDF + PPTX), vista previa y gráficas
-├── proyectos-inteligencia-artificial/<proyecto>/   proyectos de IA (RAG, LLM): código, evaluación y README
-└── scripts/                  ejercicios de curso, prácticas y apuntes (no son proyectos terminados)
+├── 01-ia-engineering/       LLMs, RAG y modelos pre-entrenados: código, evaluación y README
+├── 02-machine-learning/     modelos predictivos: notebook, README y slides/
+├── 03-analisis-de-datos/    SQL, estadística y dashboards: notebook, README y slides/
+└── practicas/               ejercicios de curso, prácticas y apuntes (no son proyectos terminados)
 ```
 
 Cómo trabajo cada proyecto: valido antes de confiar en un número (validación cruzada, sin fuga de datos), documento

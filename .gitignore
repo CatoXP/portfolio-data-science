@@ -1,4 +1,4 @@
-# Carpeta de trabajo original (incluye skills-lock.json, no es parte del proyecto); la versión limpia vive en proyectos/credit-scoring-predicting/
+# Carpeta de trabajo original (incluye skills-lock.json, no es parte del proyecto); la versión limpia vive en 02-machine-learning/credit-scoring-predicting/
 Credit Scoring Predicting/
 
 # Jupyter / Python
@@ -8,7 +8,7 @@ __pycache__/
 .venv/
 venv/
 
-# Carpeta de trabajo original; la versión limpia vive en proyectos-inteligencia-artificial/rag-regulacion-bancaria/
+# Carpeta de trabajo original; la versión limpia vive en 01-ia-engineering/rag-regulacion-bancaria/
 Proyectos Inteligencia Artificial/
 
 # OS / editor

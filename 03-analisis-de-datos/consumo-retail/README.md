@@ -43,7 +43,7 @@ para negocio.
 ## 4. Reglas de asociación (Python)
 Cada pedido se convierte en un vector binario de productos y se calculan **soporte**, **confianza** y **lift** para cada
 par (umbral de confianza: 5%). El algoritmo se explica a detalle en el proyecto
-[Market Basket Analysis](../market-basket-consumo).
+[Market Basket Analysis](../market-basket).
 
 ![Reglas con mayor lift](slides/img/ret_reglas.png)
 
