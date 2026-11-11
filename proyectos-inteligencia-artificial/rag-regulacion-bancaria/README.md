@@ -20,6 +20,8 @@ respuesta, lo dice en lugar de inventar.
 Todo corre en local: los modelos de búsqueda y el modelo de lenguaje se
 ejecutan en la computadora, sin enviar datos a servicios externos.
 
+🎬 **[Video explicativo del proyecto](assets/video_explicativo_rag.mp4)**
+
 <!-- Cuando grabes el demo, guárdalo en assets/demo.gif y descomenta esta línea:
 <p align="center"><img src="assets/demo.gif" alt="Demo del asistente" width="85%"></p>
 -->
