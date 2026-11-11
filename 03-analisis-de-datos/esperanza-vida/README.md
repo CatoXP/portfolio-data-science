@@ -79,7 +79,7 @@ jupyter notebook Analisis_Descriptivo_con_Python_Esperanza_de_vida.ipynb
 > El notebook se escribió en Google Colab: cambia la ruta `/content/esperanza-vida.csv` por `esperanza-vida.csv`.
 
 ```
-analisis-esperanza-vida/
+esperanza-vida/
 ├── Analisis_Descriptivo_con_Python_Esperanza_de_vida.ipynb
 ├── esperanza-vida.csv
 └── slides/          presentación (PDF/PPTX), vista previa y gráficas

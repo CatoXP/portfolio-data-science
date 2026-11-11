@@ -157,7 +157,7 @@ Requisitos: Python 3.11 y [Ollama](https://ollama.com).
 ```bash
 # 1. Clonar el portafolio y entrar a la carpeta del proyecto
 git clone https://github.com/CatoXP/portfolio-data-science.git
-cd portfolio-data-science/proyectos-inteligencia-artificial/rag-regulacion-bancaria
+cd portfolio-data-science/01-ia-engineering/rag-regulacion-bancaria
 
 # 2. Crear el entorno e instalar dependencias
 python -m venv .venv
